@@ -84,4 +84,6 @@ class Canvas {
     }    
 }
 
-console.log(new Canvas(3, 3).ripplefill(2, 2, 'yellow').map);
+let canvas = new Canvas(3, 3);
+console.log(canvas.map);
+console.log(canvas.ripplefill(2, 2, 'yellow').map);
