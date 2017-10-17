@@ -13,3 +13,5 @@ Sort
 ====
 
 - Heap
+
+> Note: This is not meant to be published as a npm package. You can however use `npm install` to resolve dependencies required for these experiments.

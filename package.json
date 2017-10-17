@@ -1,0 +1,24 @@
+{
+  "name": "compsci",
+  "version": "1.0.0",
+  "description": "Collection of random computer science experiments",
+  "main": "index.js",
+  "dependencies": {
+    "cli-clear": "^1.0.4",
+    "heap": "^0.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitoc/compsci.git"
+  },
+  "author": "Vito Chin <vito@php.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vitoc/compsci/issues"
+  },
+  "homepage": "https://github.com/vitoc/compsci#readme"
+}
