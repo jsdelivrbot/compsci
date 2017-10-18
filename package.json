@@ -4,6 +4,7 @@
   "description": "Collection of random computer science experiments",
   "main": "index.js",
   "dependencies": {
+    "blessed": "^0.1.81",
     "cli-clear": "^1.0.4",
     "heap": "^0.2.6"
   },
