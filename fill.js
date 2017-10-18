@@ -75,7 +75,7 @@ class Canvas {
         return neighbors;
     }
 
-    rippleFill(x, y, color) {
+    fill(x, y, color) {
         let pixelClicked = this.getPixel(x, y);
         if (!pixelClicked.color) {
             pixelClicked.setColor(color);
@@ -83,14 +83,14 @@ class Canvas {
             let neighbors = this.getNeighbors(pixelClicked);
             neighbors.forEach(function(neighbor) {
                 setTimeout(function() {
-                    this.rippleFill(neighbor.x, neighbor.y, color)
+                    this.fill(neighbor.x, neighbor.y, color)
                 }.bind(this, neighbor, color), 10);
             }.bind(this));           
         }
         return this;
     }
 
-    rippleFillWithStack(x, y, color) {
+    fillWithStack(x, y, color) {
         let pixelClicked = this.getPixel(x, y);
         let pixelStack = [];
         pixelStack.push(pixelClicked);
@@ -111,4 +111,4 @@ class Canvas {
 }
 
 let canvas = new Canvas(55, 15);
-canvas.rippleFill(25, 7, 'green');
+canvas.fill(25, 7, 'green');
