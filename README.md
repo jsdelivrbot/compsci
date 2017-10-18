@@ -1,6 +1,10 @@
 Fill
 ====
 
+<h1 align="center">
+	<img src="https://cdn.rawgit.com/vitoc/compsci/138f75bc/fill.gif" alt="visualization">
+</h1>
+
 Factorial
 =========
 
